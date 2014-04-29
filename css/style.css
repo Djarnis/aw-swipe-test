@@ -100,16 +100,15 @@ a.boxclose{
 
   width:100%;
 
-  height:33%;
+  height:33.33%;
   position: relative;
 
+  overflow: scroll !important;
+ 
   overflow-y:hidden;
   overflow-x:scroll; 
-  -webkit-overflow-scrolling:touch;
-
-
-    -webkit-overflow-scrolling: touch !important;
-    overflow: scroll !important;
+  /* -webkit-overflow-scrolling:touch; */
+  -webkit-overflow-scrolling: touch !important;
   
 
 }
@@ -126,3 +125,5 @@ a.boxclose{
 .scroller-wrap .row{
   position: absolute;
 }
+
+table{border:none;padding:none;}
